@@ -21,11 +21,11 @@ le.fit(data['day of week'])
 data['day'] = le.transform(data['day of week'])
 
 # Feature selection
-features = ['day', 'Breads', 'Beverages', 'Desserts','total', 'Income Category']
+features = ['day', 'Breads', 'Beverages', 'Desserts','total', 'Product Sold Category']
 X = data[features]
 
 # Predicting the column
-y = data['Product Sold Category']
+y = data['Income Sold Category']
 
 # Preparing the feature set
 X = data[features].fillna(0)
@@ -46,7 +46,7 @@ y_pred = knn.predict(X_test)
 y_proba = knn.predict_proba(X_test)  # Get probability estimates
 
 # Binarize the output labels for ROC AUC
-y_test_binarized = label_binarize(y_test, classes=range(len(label_encoders['Product Sold Category'].classes_)))
+y_test_binarized = label_binarize(y_test, classes=range(len(label_encoders['Income Category'].classes_)))
 
 # ROC AUC score (One-vs-Rest for multiclass)
 roc_auc = roc_auc_score(y_test_binarized, y_proba, multi_class='ovr')
