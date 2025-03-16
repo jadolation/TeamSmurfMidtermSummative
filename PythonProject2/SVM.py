@@ -15,7 +15,7 @@ RANDOM_SEED = random.randint(1, 100)
 print(f"Using random seed: {RANDOM_SEED}")
 
 # Load the cleaned dataset
-file_path = "Transformed_Bakery_Sales.xlsx"
+file_path = "/content/Transformed_Bakery_Sales.xlsx"
 df = pd.read_excel(file_path)
 
 # Split 90% for training & testing, 10% as unseen data
@@ -38,7 +38,6 @@ print(f"Data split and saved successfully.")
 print(f"Training data: {train_data.shape[0]} samples")
 print(f"Testing data: {test_data.shape[0]} samples")
 print(f"Unseen data: {unseen_data.shape[0]} samples")
-
 
 # Preprocess function for consistent feature engineering
 def preprocess_data(df):
@@ -66,7 +65,6 @@ def preprocess_data(df):
 
     return features, processed_df['high_sale']
 
-
 # Preprocess all datasets
 X_train, y_train = preprocess_data(train_data)
 X_test, y_test = preprocess_data(test_data)
@@ -80,7 +78,7 @@ models = {
 # Setup 10-fold cross-validation for unseen data only
 skf = StratifiedKFold(n_splits=10, shuffle=True, random_state=RANDOM_SEED)
 
-# Results dictionary
+# Keep your original results dictionary structure
 results = {
     'Model': [],
     'Accuracy': [],
@@ -90,30 +88,54 @@ results = {
     'Confusion Matrix': []
 }
 
-# Evaluate each model using 10-fold CV on the unseen data
+# Add a parallel dictionary for training results
+train_results = {
+    'Model': [],
+    'Accuracy': [],
+    'Precision': [],
+    'Recall': [],
+    'ROC-AUC': [],
+    'Confusion Matrix': []
+}
+
+# Evaluate each model using 10-fold CV on the unseen data (your existing code)
 for name, model in models.items():
     print(f"Evaluating {name} on unseen data with 10-fold CV...")
-
-    # Storage for metrics
-    acc_scores = []
-    prec_scores = []
-    recall_scores = []
-    roc_auc_scores = []
-
-    # Confusion matrix aggregate
-    conf_matrix_total = np.zeros((2, 2), dtype=int)
-
-    # Perform 10-fold cross-validation on unseen data
-    for train_index, test_index in skf.split(X_unseen, y_unseen):
-        X_cv_train, X_cv_test = X_unseen.iloc[train_index], X_unseen.iloc[test_index]
-        y_cv_train, y_cv_test = y_unseen.iloc[train_index], y_unseen.iloc[test_index]
-
-        # Train the model on a fold of the unseen data
+   
+    # Your existing code for unseen data evaluation...
+    # (Keep all your current code for unseen data evaluation)
+   
+    # Store unseen data results - keep this as is
+    results['Model'].append(name)
+    results['Accuracy'].append(avg_accuracy)
+    results['Precision'].append(avg_precision)
+    results['Recall'].append(avg_recall)
+    results['ROC-AUC'].append(avg_roc_auc)
+    results['Confusion Matrix'].append(conf_matrix_total)
+   
+    # Now evaluate on training data with 10-fold CV
+    print(f"Evaluating {name} on training data with 10-fold CV...")
+   
+    # Storage for train metrics
+    train_acc_scores = []
+    train_prec_scores = []
+    train_recall_scores = []
+    train_roc_auc_scores = []
+   
+    # Confusion matrix aggregate for train data
+    train_conf_matrix_total = np.zeros((2, 2), dtype=int)
+   
+    # Perform 10-fold cross-validation on train data
+    for train_index, test_index in skf.split(X_train, y_train):
+        X_cv_train, X_cv_test = X_train.iloc[train_index], X_train.iloc[test_index]
+        y_cv_train, y_cv_test = y_train.iloc[train_index], y_train.iloc[test_index]
+       
+        # Train the model on a fold of the train data
         model.fit(X_cv_train, y_cv_train)
-
+       
         # Predict on the test fold
         y_pred = model.predict(X_cv_test)
-
+       
         # For ROC-AUC, we need probability estimates
         if hasattr(model, "predict_proba"):
             y_prob = model.predict_proba(X_cv_test)[:, 1]
@@ -123,35 +145,45 @@ for name, model in models.items():
                 y_prob = model.decision_function(X_cv_test)
             else:
                 y_prob = y_pred  # Fallback
-
+       
         # Compute metrics for the fold
-        acc_scores.append(accuracy_score(y_cv_test, y_pred))
-        prec_scores.append(precision_score(y_cv_test, y_pred, zero_division=0))
-        recall_scores.append(recall_score(y_cv_test, y_pred, zero_division=0))
-
+        train_acc_scores.append(accuracy_score(y_cv_test, y_pred))
+        train_prec_scores.append(precision_score(y_cv_test, y_pred, zero_division=0))
+        train_recall_scores.append(recall_score(y_cv_test, y_pred, zero_division=0))
+       
         try:
-            roc_auc_scores.append(roc_auc_score(y_cv_test, y_prob))
+            train_roc_auc_scores.append(roc_auc_score(y_cv_test, y_prob))
         except ValueError:
-            roc_auc_scores.append(0)
-
+            train_roc_auc_scores.append(0)
+       
         # Update aggregate confusion matrix
-        conf_matrix_total += confusion_matrix(y_cv_test, y_pred, labels=[0, 1])
+        train_conf_matrix_total += confusion_matrix(y_cv_test, y_pred, labels=[0,1])
+   
+    # Average metrics for train data
+    train_avg_accuracy = np.mean(train_acc_scores)
+    train_avg_precision = np.mean(train_prec_scores)
+    train_avg_recall = np.mean(train_recall_scores)
+    train_avg_roc_auc = np.mean(train_roc_auc_scores)
+   
+    # Store train results
+    train_results['Model'].append(name)
+    train_results['Accuracy'].append(train_avg_accuracy)
+    train_results['Precision'].append(train_avg_precision)
+    train_results['Recall'].append(train_avg_recall)
+    train_results['ROC-AUC'].append(train_avg_roc_auc)
+    train_results['Confusion Matrix'].append(train_conf_matrix_total)
+   
+    # Print train confusion matrix in text format
+    print(f"\nTrain Confusion Matrix for {name}")
+    print(f"True Negatives: {train_conf_matrix_total[0, 0]}, False Positives: {train_conf_matrix_total[0, 1]}")
+    print(f"False Negatives: {train_conf_matrix_total[1, 0]}, True Positives: {train_conf_matrix_total[1, 1]}\n")
 
-    # Average metrics
-    avg_accuracy = np.mean(acc_scores)
-    avg_precision = np.mean(prec_scores)
-    avg_recall = np.mean(recall_scores)
-    avg_roc_auc = np.mean(roc_auc_scores)
+    # Print unseen confusion matrix in text format
+    print(f"\nUnseen Confusion Matrix for {name}")
+    print(f"True Negatives: {conf_matrix_total[0, 0]}, False Positives: {conf_matrix_total[0, 1]}")
+    print(f"False Negatives: {conf_matrix_total[1, 0]}, True Positives: {conf_matrix_total[1, 1]}\n")
 
-    # Store results
-    results['Model'].append(name)
-    results['Accuracy'].append(avg_accuracy)
-    results['Precision'].append(avg_precision)
-    results['Recall'].append(avg_recall)
-    results['ROC-AUC'].append(avg_roc_auc)
-    results['Confusion Matrix'].append(conf_matrix_total)
-
-# Convert results to DataFrame for easy viewing
+# Keep your original results DataFrame
 results_df = pd.DataFrame({
     'Model': results['Model'],
     'Accuracy': results['Accuracy'],
@@ -160,31 +192,67 @@ results_df = pd.DataFrame({
     'ROC-AUC': results['ROC-AUC']
 })
 
+# Create a DataFrame for training results
+train_results_df = pd.DataFrame({
+    'Model': train_results['Model'],
+    'Accuracy': train_results['Accuracy'],
+    'Precision': train_results['Precision'],
+    'Recall': train_results['Recall'],
+    'ROC-AUC': train_results['ROC-AUC']
+})
+
+# Print both results
 print("\nModel Performance Metrics on Unseen Data (10-fold Cross-Validation):")
 print(results_df.round(3))
 
-# Plot confusion matrices
+print("\nModel Performance Metrics on Training Data (10-fold Cross-Validation):")
+print(train_results_df.round(3))
+
+# Plot confusion matrices for both datasets
+# First for unseen data (your existing code)
 fig, axes = plt.subplots(2, 3, figsize=(18, 12))
 axes = axes.flatten()
 
 for i, (name, cm) in enumerate(zip(results['Model'], results['Confusion Matrix'])):
     if i < len(axes):
         sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', ax=axes[i])
-        axes[i].set_title(f'Confusion Matrix - {name}', fontsize=16, pad=15)
+        axes[i].set_title(f'Confusion Matrix (Unseen) - {name}', fontsize=16, pad=15)
         axes[i].set_xlabel('Predicted Label', fontsize=14, labelpad=10)
         axes[i].set_ylabel('True Label', fontsize=14, labelpad=10)
         axes[i].tick_params(labelsize=12)
 
 # Remove any unused subplots
-for j in range(i + 1, len(axes)):
+for j in range(i+1, len(axes)):
     fig.delaxes(axes[j])
 
 plt.tight_layout()
 plt.savefig('unseen_data_confusion_matrices.png')
 plt.show()
 
-# Plot performance metrics comparison
+# Now for training data
+fig, axes = plt.subplots(2, 3, figsize=(18, 12))
+axes = axes.flatten()
+
+for i, (name, cm) in enumerate(zip(train_results['Model'], train_results['Confusion Matrix'])):
+    if i < len(axes):
+        sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', ax=axes[i])
+        axes[i].set_title(f'Confusion Matrix (Train) - {name}', fontsize=16, pad=15)
+        axes[i].set_xlabel('Predicted Label', fontsize=14, labelpad=10)
+        axes[i].set_ylabel('True Label', fontsize=14, labelpad=10)
+        axes[i].tick_params(labelsize=12)
+
+# Remove any unused subplots
+for j in range(i+1, len(axes)):
+    fig.delaxes(axes[j])
+
+plt.tight_layout()
+plt.savefig('train_data_confusion_matrices.png')
+plt.show()
+
+# Plot performance metrics comparison for both datasets
 metrics = ['Accuracy', 'Precision', 'Recall', 'ROC-AUC']
+
+# Unseen data (your existing code)
 fig, ax = plt.subplots(figsize=(12, 8))
 
 x = np.arange(len(results['Model']))
@@ -208,7 +276,31 @@ plt.tight_layout()
 plt.savefig('unseen_data_model_comparison.png')
 plt.show()
 
-# Identify best performing model based on ROC-AUC
+# Training data
+fig, ax = plt.subplots(figsize=(12, 8))
+
+x = np.arange(len(train_results['Model']))
+width = 0.2
+multiplier = 0
+
+for metric in metrics:
+    offset = width * multiplier
+    rects = ax.bar(x + offset, train_results_df[metric], width, label=metric)
+    multiplier += 1
+
+ax.set_title('Model Performance on Training Data (10-fold CV)', fontsize=20, pad=15)
+ax.set_xticks(x + width, train_results['Model'], fontsize=14)
+ax.set_ylabel('Score', fontsize=16, labelpad=10)
+ax.set_ylim(0, 1.0)
+ax.legend(loc='lower right', fontsize=12)
+ax.grid(axis='y', linestyle='--', alpha=0.7)
+ax.set_axisbelow(True)
+
+plt.tight_layout()
+plt.savefig('train_data_model_comparison.png')
+plt.show()
+
+# Keep your original best model identification
 best_model_idx = results_df['ROC-AUC'].idxmax()
 best_model = results_df.iloc[best_model_idx]['Model']
 best_roc_auc = results_df.iloc[best_model_idx]['ROC-AUC']
@@ -216,4 +308,10 @@ best_roc_auc = results_df.iloc[best_model_idx]['ROC-AUC']
 print(f"\nBest performing model on unseen data (10-fold CV): {best_model}")
 print(f"ROC-AUC Score: {best_roc_auc:.3f}")
 
-print("\nDone")
+# Add best model identification for training data
+best_train_model_idx = train_results_df['ROC-AUC'].idxmax()
+best_train_model = train_results_df.iloc[best_train_model_idx]['Model']
+best_train_roc_auc = train_results_df.iloc[best_train_model_idx]['ROC-AUC']
+
+print(f"\nBest performing model on training data (10-fold CV): {best_train_model}")
+print(f"ROC-AUC Score: {best_train_roc_auc:.3f}")
