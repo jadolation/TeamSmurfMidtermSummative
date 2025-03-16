@@ -1,244 +1,243 @@
-datetime,day of week,total,Breads,Beverages,Desserts
-2019-09-07 11:06:00,Sat,18600,"orange pound, orange pound",,"gateau chocolat, gateau chocolat"
-2019-11-20 13:24:00,Wed,23800,"angbutter, croissant, tiramisu croissant, orange pound",,
-2020-04-03 12:08:00,Fri,19300,"angbutter, plain bread, tiramisu croissant, pandoro",,
-2020-04-13 14:06:00,Mon,27000,"croissant, pandoro","americano, americano, americano",cheese cake
-2019-09-23 13:41:00,Mon,24600,"angbutter, angbutter, tiramisu croissant, orange pound",,
-2019-10-26 13:04:00,Sat,15100,"angbutter, angbutter, plain bread",,
-2020-01-03 11:03:00,Fri,21600,"angbutter, angbutter, pandoro",vanila latte,
-2019-12-18 11:22:00,Wed,52800,"angbutter, angbutter, angbutter, angbutter, angbutter, tiramisu croissant, orange pound, wiener",,gateau chocolat
-2020-02-14 14:16:00,Fri,16100,"angbutter, angbutter",,
-2019-07-22 11:38:00,Mon,15600,"angbutter, angbutter",americano,
-2020-03-02 12:28:00,Mon,14800,"angbutter, plain bread, tiramisu croissant",,
-2020-03-02 12:26:00,Mon,31400,"angbutter, angbutter, angbutter, plain bread, plain bread, plain bread, pandoro",,
-2019-08-11 12:58:00,Sun,15800,"angbutter, pandoro",caffe latte,
-2019-12-19 11:29:00,Thur,24800,"angbutter, croissant, croissant",,
-2019-09-05 15:50:00,Thur,14100,"angbutter, angbutter, wiener",,
-2019-08-30 14:13:00,Fri,16000,"croissant, pandoro, wiener",,
-2019-09-06 16:29:00,Fri,39700,"angbutter, angbutter, croissant, croissant, orange pound",,"gateau chocolat, gateau chocolat"
-2020-03-06 14:00:00,Fri,15800,"angbutter, plain bread, pandoro",,
-2019-12-19 12:17:00,Thur,15800,"angbutter, tiramisu croissant, tiramisu croissant",,
-2019-07-26 13:24:00,Fri,28100,"angbutter, angbutter, orange pound","americano, lemon ade",
-2020-02-02 13:31:00,Sun,14500,"plain bread, tiramisu croissant, orange pound",,
-2019-08-23 12:47:00,Fri,19800,"angbutter, orange pound",americano,
-2020-01-31 14:15:00,Fri,16800,"angbutter, tiramisu croissant, orange pound",,
-2019-08-07 12:17:00,Wed,15300,"croissant, wiener",,gateau chocolat
-2020-02-29 11:35:00,Sat,16300,"angbutter, pandoro",americano,
-2019-09-28 11:27:00,Sat,14300,"angbutter, croissant",americano,
-2019-08-12 12:39:00,Mon,24300,"angbutter, plain bread, plain bread, croissant, croissant, croissant",,
-2019-08-16 11:54:00,Fri,17800,"angbutter, tiramisu croissant, wiener",,
-2020-04-27 12:08:00,Mon,14800,"angbutter, orange pound",,
-2019-08-10 11:09:00,Sat,17300,"angbutter, croissant",,
-2019-12-12 12:57:00,Thur,23300,"angbutter, orange pound","americano, americano, americano",
-2020-02-29 14:25:00,Sat,15300,"angbutter, pandoro",,
-2019-12-18 15:05:00,Wed,19100,"angbutter, angbutter",,
-2020-02-07 13:41:00,Fri,18300,"angbutter, pandoro",,
-2020-03-19 12:25:00,Thur,23100,"angbutter, plain bread, orange pound",,gateau chocolat
-2020-02-21 13:20:00,Fri,20000,"plain bread, croissant, orange pound",,
-2020-02-09 14:34:00,Sun,14000,"plain bread, orange pound",,
-2019-11-17 12:01:00,Sun,19600,"angbutter, angbutter, croissant, pandoro",,
-2020-04-17 12:12:00,Fri,19300,"angbutter, plain bread, tiramisu croissant, orange pound",,
-2019-07-28 12:48:00,Sun,14800,"angbutter, croissant, tiramisu croissant",,
-2019-12-06 12:23:00,Fri,15000,,americano,cheese cake
-2020-03-07 14:56:00,Sat,16800,"angbutter, croissant, tiramisu croissant",,
-2019-12-02 11:03:00,Mon,17500,"plain bread, croissant, wiener, wiener",,
-2019-09-19 16:17:00,Thur,30500,plain bread,"americano, caffe latte, berry ade",
-2019-10-06 11:25:00,Sun,21300,"angbutter, plain bread, plain bread, jam, jam, orange pound",,
-2020-03-14 13:05:00,Sat,14500,"plain bread, orange pound",caffe latte,
-2020-01-30 14:27:00,Thur,16000,"plain bread, croissant, wiener",caffe latte,
-2019-10-25 14:16:00,Fri,18600,"angbutter, angbutter, wiener",caffe latte,
-2020-03-16 13:29:00,Mon,14800,angbutter,vanila latte,
-2019-08-30 11:16:00,Fri,14800,"angbutter, plain bread",vanila latte,
-2020-01-15 11:04:00,Wed,20300,"angbutter, plain bread, croissant, tiramisu croissant",,
-2019-12-02 13:06:00,Mon,20600,"angbutter, pandoro, orange pound",,gateau chocolat
-2020-04-11 15:01:00,Sat,19300,tiramisu croissant,,"cheese cake, gateau chocolat"
-2020-02-02 12:42:00,Sun,17300,"angbutter, plain bread, plain bread",,
-2019-12-11 15:07:00,Wed,14300,"angbutter, croissant",americano,
-2020-04-02 16:21:00,Thur,29500,"angbutter, angbutter, angbutter, angbutter, tiramisu croissant",,gateau chocolat
-2020-02-19 13:03:00,Wed,17100,"angbutter, angbutter, orange pound",,
-2019-12-11 12:02:00,Wed,14000,"angbutter, croissant",caffe latte,
-2020-02-27 11:23:00,Thur,23800,"angbutter, tiramisu croissant, orange pound","americano, americano",
-2020-02-26 13:28:00,Wed,15800,"angbutter, tiramisu croissant, orange pound",,
-2019-12-05 12:32:00,Thur,16000,"plain bread, croissant, tiramisu croissant, wiener",,
-2020-04-08 12:01:00,Wed,30300,"angbutter, plain bread, tiramisu croissant, orange pound, wiener",,
-2020-02-16 11:17:00,Sun,17000,"croissant, croissant, tiramisu croissant",,
-2020-03-09 14:05:00,Mon,18000,"plain bread, tiramisu croissant, tiramisu croissant",,
-2019-11-27 13:07:00,Wed,14800,"angbutter, angbutter",americano,
-2019-10-17 13:50:00,Thur,32300,"angbutter, plain bread, jam, croissant, tiramisu croissant","vanila latte, vanila latte",
-2019-11-27 13:34:00,Wed,17300,"angbutter, croissant, croissant",,
-2020-01-20 11:32:00,Mon,15000,"tiramisu croissant, pandoro",americano,
-2019-09-02 15:16:00,Mon,18300,angbutter,,
-2019-08-19 13:53:00,Mon,24300,"angbutter, tiramisu croissant, pandoro",americano,
-2020-04-22 13:05:00,Wed,20300,"angbutter, tiramisu croissant",,
-2019-12-06 12:26:00,Fri,16300,"angbutter, plain bread, jam, pandoro",,
-2019-08-08 12:03:00,Thur,16500,"plain bread, jam, tiramisu croissant, wiener",,
-2020-01-26 12:50:00,Sun,34900,"angbutter, angbutter, angbutter, plain bread, croissant, croissant",,
-2019-10-07 16:49:00,Mon,16100,"angbutter, angbutter, tiramisu croissant",,
-2019-08-04 12:30:00,Sun,19500,"plain bread, croissant, croissant",,
-2020-01-08 11:26:00,Wed,26000,"angbutter, angbutter, angbutter, angbutter, angbutter",,
-2020-04-24 12:15:00,Fri,30900,"angbutter, angbutter, angbutter, tiramisu croissant, tiramisu croissant, tiramisu croissant",,
-2020-01-19 11:09:00,Sun,14800,angbutter,americano,
-2019-07-31 13:58:00,Wed,15800,"angbutter, tiramisu croissant, pandoro",,
-2019-07-20 13:56:00,Sat,17800,"angbutter, croissant",americano,
-2019-11-17 16:45:00,Sun,14500,"angbutter, angbutter",caffe latte,
-2019-10-13 12:55:00,Sun,18500,"plain bread, wiener, wiener",americano,
-2019-10-03 13:42:00,Thur,18800,"angbutter, plain bread",americano,
-2019-10-03 11:53:00,Thur,18300,"angbutter, plain bread, jam, wiener",,
-2019-12-02 13:38:00,Mon,14800,"angbutter, tiramisu croissant",,
-2020-05-02 11:37:00,Sat,19500,,"caffe latte, vanila latte",cheese cake
-2020-04-15 13:19:00,Wed,34000,"angbutter, angbutter, angbutter, angbutter, angbutter, croissant, orange pound",,
-2020-02-26 12:34:00,Wed,22000,"plain bread, plain bread, orange pound",,
-2020-04-15 14:22:00,Wed,14800,tiramisu croissant,caffe latte,gateau chocolat
-2020-03-16 13:45:00,Mon,17000,"plain bread, croissant, tiramisu croissant",,
-2019-12-11 11:36:00,Wed,15000,"angbutter, plain bread, tiramisu croissant",,
-2019-09-18 16:42:00,Wed,15500,tiramisu croissant,americano,
-2020-04-08 13:20:00,Wed,17100,"angbutter, angbutter, jam",,merinque cookies
-2020-03-27 13:36:00,Fri,24800,"angbutter, angbutter, plain bread, jam, wiener, wiener",,
-2019-12-19 13:53:00,Thur,16600,"angbutter, angbutter, wiener, wiener",,
-2020-03-23 12:37:00,Mon,34100,"angbutter, angbutter, pandoro","americano, berry ade",merinque cookies
-2020-02-23 11:47:00,Sun,23500,"tiramisu croissant, orange pound, wiener",,
-2019-12-22 14:35:00,Sun,19300,"angbutter, tiramisu croissant","americano, americano",
-2020-03-11 13:17:00,Wed,25300,"angbutter, plain bread, croissant, croissant, croissant",,
-2020-03-21 12:51:00,Sat,18300,"angbutter, plain bread",caffe latte,
-2020-01-17 12:26:00,Fri,16300,"angbutter, pandoro",americano,
-2019-10-20 11:18:00,Sun,18600,"angbutter, angbutter, croissant, croissant",,
-2019-11-29 13:39:00,Fri,17300,"angbutter, plain bread, pandoro, wiener",,
-2020-04-06 15:38:00,Mon,20600,"angbutter, angbutter, plain bread",vanila latte,
-2019-09-28 12:41:00,Sat,22100,"angbutter, angbutter, plain bread, croissant",,
-2020-04-06 14:41:00,Mon,14500,"plain bread, tiramisu croissant, orange pound",,
-2020-03-30 14:46:00,Mon,14800,angbutter,,
-2019-09-01 12:04:00,Sun,19600,"angbutter, angbutter",caffe latte,
-2020-04-01 13:44:00,Wed,22800,"angbutter, plain bread, croissant",lemon ade,
-2020-02-09 12:54:00,Sun,22300,"angbutter, plain bread, jam, jam",vanila latte,
-2020-02-27 15:47:00,Thur,19600,"angbutter, angbutter, orange pound",,
-2020-02-01 14:06:00,Sat,15800,"angbutter, tiramisu croissant",,
-2019-12-15 15:53:00,Sun,17100,"angbutter, angbutter",,
-2020-02-08 15:22:00,Sat,22800,"angbutter, croissant, tiramisu croissant",,
-2020-02-08 12:38:00,Sat,21200,"angbutter, angbutter, angbutter, angbutter",,
-2019-11-10 11:10:00,Sun,21100,"angbutter, angbutter",caffe latte,
-2020-02-21 14:41:00,Fri,15800,"angbutter, plain bread, orange pound",,
-2020-01-15 13:22:00,Wed,26300,"angbutter, plain bread, croissant, croissant, orange pound",,
-2019-10-03 13:17:00,Thur,24000,"plain bread, tiramisu croissant, tiramisu croissant, wiener, wiener",vanila latte,
-2020-02-23 15:57:00,Sun,15600,"angbutter, angbutter, angbutter",,
-2020-01-12 12:30:00,Sun,16000,"plain bread, jam, pandoro",,
-2019-11-25 12:25:00,Mon,18000,croissant,"caffe latte, caffe latte",
-2019-08-12 11:08:00,Mon,20800,"angbutter, croissant, tiramisu croissant",,
-2019-12-05 14:48:00,Thur,36000,"angbutter, angbutter, angbutter, angbutter, angbutter, plain bread, jam, croissant",,
-2020-01-17 14:15:00,Fri,17800,"angbutter, wiener, wiener",,cheese cake
-2020-03-05 14:26:00,Thur,14300,"angbutter, croissant",,
-2020-02-16 11:17:00,Sun,27100,"angbutter, angbutter, plain bread, plain bread, tiramisu croissant",,
-2019-08-05 12:14:00,Mon,14800,"angbutter, plain bread, pandoro",,
-2019-10-02 15:57:00,Wed,24500,"plain bread, plain bread, jam, orange pound, orange pound, wiener, wiener",,
-2019-12-28 16:18:00,Sat,58900,"angbutter, angbutter, angbutter, plain bread, plain bread, croissant, croissant, croissant, croissant, tiramisu croissant, tiramisu croissant, tiramisu croissant",,
-2019-08-08 12:56:00,Thur,16000,"plain bread, croissant, pandoro, wiener",,
-2020-02-15 17:19:00,Sat,19600,"angbutter, angbutter, croissant",,
-2019-07-27 12:00:00,Sat,18600,"angbutter, croissant",vanila latte,gateau chocolat
-2019-08-08 12:39:00,Thur,15300,"angbutter, plain bread, wiener, wiener",,
-2020-04-19 11:26:00,Sun,21200,"angbutter, angbutter, angbutter, angbutter",,
-2020-01-17 13:30:00,Fri,16300,"angbutter, croissant, wiener",,
-2019-08-04 11:04:00,Sun,31600,"angbutter, angbutter, plain bread, croissant, orange pound, wiener, wiener",,
-2019-11-02 11:27:00,Sat,16800,"angbutter, wiener, wiener",,cheese cake
-2019-12-16 14:26:00,Mon,20300,"angbutter, tiramisu croissant",,
-2019-11-08 13:03:00,Fri,19900,"angbutter, angbutter, angbutter",,
-2020-04-04 14:06:00,Sat,21800,"angbutter, croissant, croissant, tiramisu croissant",,
-2020-03-30 15:07:00,Mon,17800,"angbutter, croissant",,merinque cookies
-2019-09-14 11:41:00,Sat,15100,"angbutter, angbutter, croissant",,
-2019-11-13 12:04:00,Wed,15800,"angbutter, tiramisu croissant, tiramisu croissant",,
-2019-12-11 11:36:00,Wed,22000,croissant,americano,
-2020-02-12 11:04:00,Wed,15000,"jam, tiramisu croissant, wiener",,
-2020-02-08 13:14:00,Sat,25600,"angbutter, angbutter, orange pound",,
-2019-11-18 14:36:00,Mon,28800,"angbutter, tiramisu croissant, wiener, wiener","caffe latte, vanila latte",
-2020-03-05 13:46:00,Thur,16300,"angbutter, plain bread, jam, tiramisu croissant",,
-2020-02-20 12:51:00,Thur,15600,"angbutter, angbutter",americano,
-2019-12-22 11:05:00,Sun,14800,"angbutter, croissant",vanila latte,
-2019-09-09 16:01:00,Mon,18600,"angbutter, angbutter, croissant, croissant",,
-2019-10-07 15:41:00,Mon,15600,"angbutter, angbutter",,
-2020-02-22 13:24:00,Sat,17500,"plain bread, croissant",americano,
-2019-12-23 13:05:00,Mon,25600,"angbutter, angbutter, wiener, wiener",americano,cheese cake
-2019-09-01 15:04:00,Sun,16100,"angbutter, angbutter, orange pound",,
-2020-03-25 14:12:00,Wed,22300,"angbutter, croissant, tiramisu croissant",,
-2019-10-27 11:33:00,Sun,17800,"angbutter, plain bread",americano,
-2020-01-31 13:47:00,Fri,15000,"plain bread, plain bread, jam",vanila latte,
-2020-04-16 16:58:00,Thur,18800,angbutter,,"merinque cookies, merinque cookies"
-2019-10-27 11:51:00,Sun,19800,"angbutter, angbutter, tiramisu croissant, orange pound",,
-2019-12-21 14:43:00,Sat,30900,"angbutter, angbutter, croissant, orange pound",,gateau chocolat
-2019-12-29 11:16:00,Sun,14000,"angbutter, tiramisu croissant",,
-2020-02-29 16:31:00,Sat,23600,angbutter,"americano, americano","cheese cake, gateau chocolat"
-2020-04-23 11:07:00,Thur,20900,"angbutter, angbutter, angbutter, orange pound",,
-2019-08-21 12:19:00,Wed,16100,"angbutter, angbutter, pandoro",,
-2019-08-08 14:52:00,Thur,17000,"plain bread, jam, jam, orange pound",americano,
-2020-01-09 12:09:00,Thur,17000,"angbutter, angbutter, plain bread, plain bread",,
-2019-08-17 13:38:00,Sat,32600,"angbutter, angbutter, plain bread, jam, tiramisu croissant, tiramisu croissant",,
-2019-11-10 12:11:00,Sun,19300,angbutter,,
-2019-08-23 11:28:00,Fri,42200,"angbutter, angbutter, angbutter, angbutter, plain bread, plain bread, plain bread, croissant, croissant, croissant",,
-2020-02-29 14:23:00,Sat,22800,"angbutter, angbutter, jam, croissant",,
-2020-04-08 15:53:00,Wed,22300,"angbutter, angbutter, plain bread, tiramisu croissant, wiener",,
-2020-02-05 11:08:00,Wed,20600,"angbutter, angbutter, tiramisu croissant, tiramisu croissant",,
-2020-04-26 13:55:00,Sun,15100,"angbutter, angbutter, plain bread",,
-2020-03-21 11:04:00,Sat,27800,"angbutter, tiramisu croissant, orange pound","americano, berry ade",
-2019-12-01 11:48:00,Sun,15300,"angbutter, tiramisu croissant",americano,
-2020-03-11 11:24:00,Wed,24300,"angbutter, plain bread, croissant, wiener",,
-2020-03-23 14:32:00,Mon,40700,"angbutter, angbutter, angbutter, angbutter, tiramisu croissant, tiramisu croissant",,
-2019-08-12 11:05:00,Mon,28400,"angbutter, angbutter, croissant, wiener",,gateau chocolat
-2019-08-24 13:07:00,Sat,14800,"angbutter, plain bread",caffe latte,
-2020-02-22 12:33:00,Sat,14500,"tiramisu croissant, pandoro",,
-2019-12-11 11:26:00,Wed,15300,"angbutter, plain bread",americano,
-2019-09-18 11:26:00,Wed,19600,"angbutter, angbutter",,
-2019-11-02 13:56:00,Sat,14800,"angbutter, croissant",caffe latte,
-2019-07-19 12:44:00,Fri,20600,"angbutter, angbutter, tiramisu croissant, orange pound",,
-2019-09-29 12:00:00,Sun,14800,"angbutter, croissant, orange pound",,
-2019-08-11 11:58:00,Sun,27900,"angbutter, angbutter, angbutter, plain bread, orange pound",,
-2019-09-14 11:18:00,Sat,22300,"plain bread, tiramisu croissant, orange pound",,gateau chocolat
-2020-02-23 12:49:00,Sun,32000,"plain bread, plain bread, tiramisu croissant, tiramisu croissant",americano,"cheese cake, cheese cake"
-2020-04-16 13:04:00,Thur,18300,"angbutter, tiramisu croissant, wiener",caffe latte,
-2020-02-20 11:23:00,Thur,27600,"angbutter, angbutter, plain bread, croissant, tiramisu croissant, tiramisu croissant",,
-2019-12-27 12:49:00,Fri,15000,"croissant, wiener",,
-2019-09-01 12:39:00,Sun,28300,"angbutter, plain bread, orange pound, orange pound",,
-2020-03-27 16:23:00,Fri,14800,angbutter,,
-2020-02-24 12:52:00,Mon,26900,"angbutter, angbutter, angbutter, croissant, croissant, croissant",,
-2019-08-11 11:03:00,Sun,16000,"croissant, orange pound, wiener",,
-2020-02-29 11:09:00,Sat,17300,"angbutter, wiener",,
-2019-11-24 12:57:00,Sun,14500,croissant,caffe latte,
-2020-02-26 12:48:00,Wed,15000,"plain bread, tiramisu croissant",,
-2019-08-07 13:28:00,Wed,17600,"angbutter, croissant, croissant",,gateau chocolat
-2019-09-02 14:30:00,Mon,24300,"angbutter, pandoro",,
-2019-08-12 13:56:00,Mon,19100,"angbutter, angbutter, croissant",americano,
-2019-09-12 11:13:00,Thur,15000,,vanila latte,
-2019-10-27 11:18:00,Sun,14800,angbutter,,
-2019-12-12 14:09:00,Thur,16300,"angbutter, croissant, wiener",,
-2019-10-21 11:27:00,Mon,17300,"angbutter, croissant, orange pound, wiener",,
-2020-02-08 12:54:00,Sat,14800,"angbutter, pandoro",,
-2020-02-23 12:25:00,Sun,15300,angbutter,"americano, vanila latte",
-2020-02-12 11:19:00,Wed,21200,"angbutter, angbutter, angbutter, angbutter",,
-2019-08-29 16:45:00,Thur,24300,"angbutter, tiramisu croissant, pandoro",,
-2020-01-11 13:16:00,Sat,19600,"angbutter, angbutter, croissant",,
-2019-10-17 12:49:00,Thur,15300,"angbutter, plain bread, wiener, wiener",,
-2019-08-11 11:01:00,Sun,21800,"angbutter, plain bread, croissant, pandoro",,
-2019-07-24 14:28:00,Wed,26300,"angbutter, plain bread, plain bread, tiramisu croissant","americano, vanila latte",
-2020-04-09 11:59:00,Thur,20300,"angbutter, plain bread, wiener, wiener",,merinque cookies
-2019-09-05 11:27:00,Thur,21800,"angbutter, plain bread, plain bread, croissant, orange pound",,
-2020-01-18 14:11:00,Sat,34700,"angbutter, angbutter, angbutter, angbutter, tiramisu croissant, tiramisu croissant, tiramisu croissant",,
-2019-10-12 13:02:00,Sat,19300,angbutter,"americano, americano, caffe latte",
-2019-12-24 11:17:00,Tues,21400,"angbutter, angbutter, angbutter, wiener, wiener",,
-2020-03-02 13:41:00,Mon,20300,"angbutter, plain bread, jam, jam, croissant, croissant",,
-2019-07-26 14:52:00,Fri,22100,"angbutter, wiener",lemon ade,gateau chocolat
-2019-09-04 12:31:00,Wed,18600,"angbutter, croissant",,gateau chocolat
-2020-01-22 16:14:00,Wed,15600,angbutter,,"cheese cake, gateau chocolat"
-2020-01-11 13:03:00,Sat,20600,"angbutter, angbutter, tiramisu croissant, tiramisu croissant",,
-2019-12-16 13:37:00,Mon,14500,"plain bread, tiramisu croissant",caffe latte,
-2019-10-23 11:06:00,Wed,15800,"angbutter, tiramisu croissant",,
-2019-12-21 11:04:00,Sat,15100,"angbutter, tiramisu croissant",,gateau chocolat
-2020-04-04 15:24:00,Sat,15100,"angbutter, angbutter, plain bread",,
-2019-10-17 13:05:00,Thur,18300,"angbutter, plain bread",,
-2019-12-04 13:51:00,Wed,15300,"angbutter, orange pound",americano,
-2020-02-02 12:18:00,Sun,16000,"plain bread, croissant, croissant, croissant",,
-2019-11-23 14:39:00,Sat,14300,"angbutter, croissant",,
-2020-01-03 17:23:00,Fri,20600,"angbutter, angbutter, orange pound, orange pound",,
-2019-10-13 11:18:00,Sun,22800,angbutter,"americano, americano",
-2019-11-13 16:23:00,Wed,15800,"angbutter, tiramisu croissant",,
-2020-04-27 13:22:00,Mon,14500,"plain bread, tiramisu croissant, orange pound",,
-2019-11-15 16:30:00,Fri,70700,"angbutter, angbutter, angbutter, angbutter, plain bread, plain bread, plain bread, plain bread, plain bread, croissant, croissant, croissant, croissant, pandoro, pandoro, pandoro, pandoro",,
-2019-09-05 12:21:00,Thur,16400,"angbutter, angbutter, angbutter",,
-2020-02-26 13:46:00,Wed,14500,pandoro,americano,
-2020-03-05 14:49:00,Thur,20800,"angbutter, orange pound",caffe latte,
-2020-04-05 13:29:00,Sun,14800,"angbutter, plain bread",,
+datetime,day of week,total,Breads,Beverages,Desserts,Day_Num,Income Category,Product Sold Category
+2020-02-13 12:28:00,Thur,18300,2,2,0,3,Low,Balanced Sales
+2020-02-07 12:56:00,Fri,17900,2,0,2,4,Low,Balanced Sales
+2019-12-06 12:23:00,Fri,15000,0,1,1,4,Low,Balanced Sales
+2020-03-27 13:10:00,Fri,18500,1,1,0,4,Low,Balanced Sales
+2020-03-07 13:20:00,Sat,19600,2,2,0,5,Low,Balanced Sales
+2020-01-19 14:23:00,Sun,15100,1,1,1,6,Low,Balanced Sales
+2019-12-12 14:52:00,Thur,19500,2,2,0,3,Low,Balanced Sales
+2019-09-18 16:42:00,Wed,15500,1,1,0,2,Low,Balanced Sales
+2020-03-01 14:27:00,Sun,27300,2,2,2,6,Medium,Balanced Sales
+2019-12-09 13:35:00,Mon,29800,3,3,0,0,Medium,Balanced Sales
+2020-02-28 12:28:00,Fri,51100,4,6,1,4,High,Beverage-Heavy Sales Day
+2020-02-12 11:03:00,Wed,16800,1,2,1,2,Low,Beverage-Heavy Sales Day
+2020-01-04 14:36:00,Sat,15300,1,2,0,5,Low,Beverage-Heavy Sales Day
+2019-11-16 12:21:00,Sat,18500,1,2,0,5,Low,Beverage-Heavy Sales Day
+2020-05-02 11:37:00,Sat,19500,0,2,1,5,Low,Beverage-Heavy Sales Day
+2019-09-12 11:13:00,Thur,15000,0,1,0,3,Low,Beverage-Heavy Sales Day
+2019-09-07 11:57:00,Sat,22800,0,2,1,5,Medium,Beverage-Heavy Sales Day
+2019-12-29 14:42:00,Sun,22800,1,2,0,6,Medium,Beverage-Heavy Sales Day
+2019-10-13 11:18:00,Sun,22800,1,2,0,6,Medium,Beverage-Heavy Sales Day
+2020-04-19 11:09:00,Sun,24100,2,3,0,6,Medium,Beverage-Heavy Sales Day
+2019-09-19 16:17:00,Thur,30500,1,3,0,3,Medium,Beverage-Heavy Sales Day
+2020-02-14 13:46:00,Fri,57500,12,0,0,4,High,Bread-Heavy Sales Day
+2019-08-30 11:16:00,Fri,14800,2,1,0,4,Low,Bread-Heavy Sales Day
+2019-08-07 13:28:00,Wed,17600,3,0,1,2,Low,Bread-Heavy Sales Day
+2019-12-05 13:56:00,Thur,14800,2,1,0,3,Low,Bread-Heavy Sales Day
+2019-11-04 11:41:00,Mon,16000,4,0,0,0,Low,Bread-Heavy Sales Day
+2020-03-25 11:13:00,Wed,15800,3,0,0,2,Low,Bread-Heavy Sales Day
+2020-01-31 13:47:00,Fri,15000,3,1,0,4,Low,Bread-Heavy Sales Day
+2020-02-19 13:01:00,Wed,17500,4,0,0,2,Low,Bread-Heavy Sales Day
+2020-02-02 12:17:00,Sun,16800,3,0,0,6,Low,Bread-Heavy Sales Day
+2019-07-28 12:48:00,Sun,14800,3,0,0,6,Low,Bread-Heavy Sales Day
+2020-03-21 13:38:00,Sat,17500,3,1,0,5,Low,Bread-Heavy Sales Day
+2020-03-14 14:47:00,Sat,15800,3,0,0,5,Low,Bread-Heavy Sales Day
+2019-11-17 15:25:00,Sun,17300,3,1,0,6,Low,Bread-Heavy Sales Day
+2020-04-05 12:33:00,Sun,16300,3,0,0,6,Low,Bread-Heavy Sales Day
+2019-08-05 12:14:00,Mon,14800,3,0,0,0,Low,Bread-Heavy Sales Day
+2019-07-31 13:58:00,Wed,15800,3,0,0,2,Low,Bread-Heavy Sales Day
+2019-10-13 12:55:00,Sun,18500,3,1,0,6,Low,Bread-Heavy Sales Day
+2019-10-07 15:41:00,Mon,15600,2,0,0,0,Low,Bread-Heavy Sales Day
+2020-03-25 14:08:00,Wed,18000,2,1,0,2,Low,Bread-Heavy Sales Day
+2019-11-17 12:01:00,Sun,19600,4,0,0,6,Low,Bread-Heavy Sales Day
+2019-07-22 11:38:00,Mon,15600,2,1,0,0,Low,Bread-Heavy Sales Day
+2020-04-22 15:05:00,Wed,16800,3,0,0,2,Low,Bread-Heavy Sales Day
+2020-01-13 12:23:00,Mon,19000,4,0,0,0,Low,Bread-Heavy Sales Day
+2019-12-16 14:32:00,Mon,19500,2,1,0,0,Low,Bread-Heavy Sales Day
+2019-11-25 14:00:00,Mon,14800,3,0,0,0,Low,Bread-Heavy Sales Day
+2020-04-08 11:01:00,Wed,17300,4,0,0,2,Low,Bread-Heavy Sales Day
+2019-11-10 11:29:00,Sun,19600,4,0,0,6,Low,Bread-Heavy Sales Day
+2019-08-29 16:46:00,Thur,15100,2,0,1,3,Low,Bread-Heavy Sales Day
+2020-02-27 12:20:00,Thur,19800,3,0,1,3,Low,Bread-Heavy Sales Day
+2019-11-15 13:44:00,Fri,18500,4,0,0,4,Low,Bread-Heavy Sales Day
+2019-09-02 15:16:00,Mon,18300,1,0,0,0,Low,Bread-Heavy Sales Day
+2020-04-02 13:12:00,Thur,15800,3,0,0,3,Low,Bread-Heavy Sales Day
+2020-01-17 14:15:00,Fri,17800,3,0,1,4,Low,Bread-Heavy Sales Day
+2019-12-18 13:28:00,Wed,14100,3,0,0,2,Low,Bread-Heavy Sales Day
+2019-09-05 15:46:00,Thur,14800,2,0,0,3,Low,Bread-Heavy Sales Day
+2019-11-03 12:58:00,Sun,16100,3,0,0,6,Low,Bread-Heavy Sales Day
+2020-01-10 12:57:00,Fri,19600,3,0,0,4,Low,Bread-Heavy Sales Day
+2020-04-22 12:53:00,Wed,18800,2,0,0,2,Low,Bread-Heavy Sales Day
+2019-12-28 15:52:00,Sat,19300,4,0,0,5,Low,Bread-Heavy Sales Day
+2020-03-25 15:54:00,Wed,16400,3,0,0,2,Low,Bread-Heavy Sales Day
+2020-02-26 11:20:00,Wed,18300,4,0,0,2,Low,Bread-Heavy Sales Day
+2020-02-19 11:00:00,Wed,14500,2,0,0,2,Low,Bread-Heavy Sales Day
+2019-12-22 11:38:00,Sun,19300,3,0,0,6,Low,Bread-Heavy Sales Day
+2020-01-08 11:15:00,Wed,18100,4,0,0,2,Low,Bread-Heavy Sales Day
+2019-08-10 11:09:00,Sat,17300,2,0,0,5,Low,Bread-Heavy Sales Day
+2020-04-03 11:44:00,Fri,14300,2,1,0,4,Low,Bread-Heavy Sales Day
+2019-12-11 11:37:00,Wed,18800,3,1,0,2,Low,Bread-Heavy Sales Day
+2019-11-23 14:39:00,Sat,14300,2,0,0,5,Low,Bread-Heavy Sales Day
+2019-08-04 12:30:00,Sun,19500,3,0,0,6,Low,Bread-Heavy Sales Day
+2019-08-08 12:56:00,Thur,16000,4,0,0,3,Low,Bread-Heavy Sales Day
+2020-02-16 11:17:00,Sun,17000,3,0,0,6,Low,Bread-Heavy Sales Day
+2020-01-29 11:46:00,Wed,17500,3,0,0,2,Low,Bread-Heavy Sales Day
+2019-08-12 13:56:00,Mon,19100,3,1,0,0,Low,Bread-Heavy Sales Day
+2020-01-17 13:30:00,Fri,16300,3,0,0,4,Low,Bread-Heavy Sales Day
+2019-09-11 11:25:00,Wed,15600,2,0,0,2,Low,Bread-Heavy Sales Day
+2019-10-13 14:32:00,Sun,15600,3,0,1,6,Low,Bread-Heavy Sales Day
+2020-03-18 12:08:00,Wed,14000,4,0,0,2,Low,Bread-Heavy Sales Day
+2020-04-05 13:17:00,Sun,17100,2,1,0,6,Low,Bread-Heavy Sales Day
+2020-04-08 12:10:00,Wed,19800,3,1,0,2,Low,Bread-Heavy Sales Day
+2020-01-12 11:03:00,Sun,17300,3,0,0,6,Low,Bread-Heavy Sales Day
+2019-11-27 13:07:00,Wed,14800,2,1,0,2,Low,Bread-Heavy Sales Day
+2019-10-20 11:18:00,Sun,18600,4,0,0,6,Low,Bread-Heavy Sales Day
+2020-04-06 11:24:00,Mon,19800,2,0,1,0,Low,Bread-Heavy Sales Day
+2019-09-07 11:18:00,Sat,14100,3,0,0,5,Low,Bread-Heavy Sales Day
+2019-08-08 14:52:00,Thur,17000,4,1,0,3,Low,Bread-Heavy Sales Day
+2019-08-11 12:58:00,Sun,15800,2,1,0,6,Low,Bread-Heavy Sales Day
+2020-02-27 15:45:00,Thur,15100,3,0,0,3,Low,Bread-Heavy Sales Day
+2019-08-21 12:19:00,Wed,16100,3,0,0,2,Low,Bread-Heavy Sales Day
+2020-01-31 13:39:00,Fri,15000,2,1,0,4,Low,Bread-Heavy Sales Day
+2019-12-30 15:44:00,Mon,15800,3,0,1,0,Low,Bread-Heavy Sales Day
+2019-10-26 13:04:00,Sat,15100,3,0,0,5,Low,Bread-Heavy Sales Day
+2020-04-11 14:45:00,Sat,14000,2,0,0,5,Low,Bread-Heavy Sales Day
+2019-09-18 11:26:00,Wed,19600,2,0,0,2,Low,Bread-Heavy Sales Day
+2019-08-08 12:39:00,Thur,15300,4,0,0,3,Low,Bread-Heavy Sales Day
+2019-11-10 11:44:00,Sun,16100,3,0,0,6,Low,Bread-Heavy Sales Day
+2020-04-27 12:31:00,Mon,18800,3,1,0,0,Low,Bread-Heavy Sales Day
+2019-11-16 11:18:00,Sat,15100,3,0,0,5,Low,Bread-Heavy Sales Day
+2019-07-20 13:56:00,Sat,17800,2,1,0,5,Low,Bread-Heavy Sales Day
+2020-03-05 11:03:00,Thur,14800,3,0,0,3,Low,Bread-Heavy Sales Day
+2019-09-27 15:42:00,Fri,14800,2,1,0,4,Low,Bread-Heavy Sales Day
+2019-10-17 12:49:00,Thur,15300,4,0,0,3,Low,Bread-Heavy Sales Day
+2019-07-27 12:00:00,Sat,18600,2,1,1,5,Low,Bread-Heavy Sales Day
+2020-02-06 11:15:00,Thur,15100,3,0,0,3,Low,Bread-Heavy Sales Day
+2020-01-17 12:26:00,Fri,16300,2,1,0,4,Low,Bread-Heavy Sales Day
+2019-08-08 12:03:00,Thur,16500,4,0,0,3,Low,Bread-Heavy Sales Day
+2019-10-11 12:38:00,Fri,15100,2,0,1,4,Low,Bread-Heavy Sales Day
+2020-01-02 12:33:00,Thur,14800,3,0,0,3,Low,Bread-Heavy Sales Day
+2020-02-16 11:30:00,Sun,19800,3,1,0,6,Low,Bread-Heavy Sales Day
+2019-08-31 11:20:00,Sat,16300,3,0,0,5,Low,Bread-Heavy Sales Day
+2019-10-28 13:43:00,Mon,15000,3,1,0,0,Low,Bread-Heavy Sales Day
+2019-12-19 13:53:00,Thur,16600,4,0,0,3,Low,Bread-Heavy Sales Day
+2019-09-05 12:21:00,Thur,16400,3,0,0,3,Low,Bread-Heavy Sales Day
+2019-08-23 12:47:00,Fri,19800,2,1,0,4,Low,Bread-Heavy Sales Day
+2020-02-14 15:27:00,Fri,15100,2,0,0,4,Low,Bread-Heavy Sales Day
+2020-01-05 12:37:00,Sun,14300,2,0,0,6,Low,Bread-Heavy Sales Day
+2019-11-02 11:27:00,Sat,16800,3,0,1,5,Low,Bread-Heavy Sales Day
+2019-10-21 11:27:00,Mon,17300,4,0,0,0,Low,Bread-Heavy Sales Day
+2020-05-02 12:15:00,Sat,14300,2,0,0,5,Low,Bread-Heavy Sales Day
+2019-10-27 11:02:00,Sun,16000,2,0,0,6,Low,Bread-Heavy Sales Day
+2019-12-11 11:36:00,Wed,15000,3,0,0,2,Low,Bread-Heavy Sales Day
+2019-11-23 13:30:00,Sat,17800,2,1,0,5,Low,Bread-Heavy Sales Day
+2020-04-20 12:45:00,Mon,17400,3,0,0,0,Low,Bread-Heavy Sales Day
+2019-09-22 12:51:00,Sun,14800,3,0,0,6,Low,Bread-Heavy Sales Day
+2019-12-01 11:40:00,Sun,15300,3,0,0,6,Low,Bread-Heavy Sales Day
+2019-09-04 12:31:00,Wed,18600,2,0,1,2,Low,Bread-Heavy Sales Day
+2020-03-01 11:26:00,Sun,14000,2,0,0,6,Low,Bread-Heavy Sales Day
+2020-02-21 13:28:00,Fri,14800,3,0,0,4,Low,Bread-Heavy Sales Day
+2019-10-06 13:51:00,Sun,19300,3,1,0,6,Low,Bread-Heavy Sales Day
+2019-11-07 11:20:00,Thur,15300,4,0,0,3,Low,Bread-Heavy Sales Day
+2019-08-07 12:17:00,Wed,15300,2,0,1,2,Low,Bread-Heavy Sales Day
+2019-09-28 11:27:00,Sat,14300,2,1,0,5,Low,Bread-Heavy Sales Day
+2019-08-11 11:03:00,Sun,16000,3,0,0,6,Low,Bread-Heavy Sales Day
+2020-01-05 11:23:00,Sun,18000,2,1,1,6,Low,Bread-Heavy Sales Day
+2019-09-01 11:22:00,Sun,14800,2,0,0,6,Low,Bread-Heavy Sales Day
+2019-09-28 16:12:00,Sat,15800,3,0,0,5,Low,Bread-Heavy Sales Day
+2019-10-03 11:07:00,Thur,17800,2,1,0,3,Low,Bread-Heavy Sales Day
+2019-12-18 12:45:00,Wed,19600,4,0,0,2,Low,Bread-Heavy Sales Day
+2019-09-01 14:35:00,Sun,14800,3,0,0,6,Low,Bread-Heavy Sales Day
+2019-10-20 12:52:00,Sun,16400,3,0,0,6,Low,Bread-Heavy Sales Day
+2019-11-29 15:30:00,Fri,14800,3,0,0,4,Low,Bread-Heavy Sales Day
+2019-12-04 13:34:00,Wed,16000,4,0,0,2,Low,Bread-Heavy Sales Day
+2020-01-11 13:11:00,Sat,15100,2,0,1,5,Low,Bread-Heavy Sales Day
+2020-03-16 12:32:00,Mon,15300,3,0,0,0,Low,Bread-Heavy Sales Day
+2020-04-09 11:58:00,Thur,15600,2,0,0,3,Low,Bread-Heavy Sales Day
+2020-01-18 14:36:00,Sat,16500,3,0,1,5,Low,Bread-Heavy Sales Day
+2020-04-18 14:10:00,Sat,14800,2,0,0,5,Low,Bread-Heavy Sales Day
+2020-04-05 16:03:00,Sun,15000,3,0,0,6,Low,Bread-Heavy Sales Day
+2020-02-26 11:07:00,Wed,15800,3,0,0,2,Low,Bread-Heavy Sales Day
+2019-09-05 12:12:00,Thur,19600,2,1,1,3,Low,Bread-Heavy Sales Day
+2020-01-22 16:08:00,Wed,14800,3,0,0,2,Low,Bread-Heavy Sales Day
+2020-03-20 15:40:00,Fri,14000,3,0,0,4,Low,Bread-Heavy Sales Day
+2019-12-16 13:21:00,Mon,16800,3,0,0,0,Low,Bread-Heavy Sales Day
+2019-08-24 11:19:00,Sat,17300,4,0,0,5,Low,Bread-Heavy Sales Day
+2019-09-29 11:49:00,Sun,17300,4,0,0,6,Low,Bread-Heavy Sales Day
+2019-12-11 11:26:00,Wed,15300,2,1,0,2,Low,Bread-Heavy Sales Day
+2019-12-13 15:53:00,Fri,16800,3,1,0,4,Low,Bread-Heavy Sales Day
+2019-09-28 16:01:00,Sat,15300,2,1,0,5,Low,Bread-Heavy Sales Day
+2020-01-08 15:42:00,Wed,19800,3,0,0,2,Low,Bread-Heavy Sales Day
+2019-11-04 11:53:00,Mon,15000,4,0,0,0,Low,Bread-Heavy Sales Day
+2019-09-01 12:04:00,Sun,19600,2,1,0,6,Low,Bread-Heavy Sales Day
+2020-02-29 11:09:00,Sat,17300,2,0,0,5,Low,Bread-Heavy Sales Day
+2019-08-16 11:54:00,Fri,17800,3,0,0,4,Low,Bread-Heavy Sales Day
+2019-10-03 12:54:00,Thur,14300,4,0,0,3,Low,Bread-Heavy Sales Day
+2019-11-29 13:39:00,Fri,17300,4,0,0,4,Low,Bread-Heavy Sales Day
+2019-10-24 14:06:00,Thur,15800,3,0,0,3,Low,Bread-Heavy Sales Day
+2020-01-17 14:17:00,Fri,15300,2,0,0,4,Low,Bread-Heavy Sales Day
+2019-10-03 11:53:00,Thur,18300,4,0,0,3,Low,Bread-Heavy Sales Day
+2020-01-04 12:51:00,Sat,24800,4,0,1,5,Medium,Bread-Heavy Sales Day
+2019-08-12 12:39:00,Mon,24300,6,0,0,0,Medium,Bread-Heavy Sales Day
+2020-02-16 11:17:00,Sun,27100,5,0,0,6,Medium,Bread-Heavy Sales Day
+2019-09-14 11:07:00,Sat,22800,3,0,0,5,Medium,Bread-Heavy Sales Day
+2019-07-26 13:24:00,Fri,28100,3,2,0,4,Medium,Bread-Heavy Sales Day
+2020-03-12 13:34:00,Thur,25100,5,0,0,3,Medium,Bread-Heavy Sales Day
+2020-03-11 13:14:00,Wed,22100,5,0,0,2,Medium,Bread-Heavy Sales Day
+2019-10-16 11:12:00,Wed,28900,6,0,0,2,Medium,Bread-Heavy Sales Day
+2019-12-06 12:17:00,Fri,20100,2,0,0,4,Medium,Bread-Heavy Sales Day
+2019-09-22 12:07:00,Sun,34100,7,0,0,6,Medium,Bread-Heavy Sales Day
+2019-12-02 14:42:00,Mon,22800,2,0,0,0,Medium,Bread-Heavy Sales Day
+2020-01-08 13:08:00,Wed,21200,4,0,0,2,Medium,Bread-Heavy Sales Day
+2019-08-04 11:04:00,Sun,31600,7,0,0,6,Medium,Bread-Heavy Sales Day
+2019-09-23 13:41:00,Mon,24600,4,0,0,0,Medium,Bread-Heavy Sales Day
+2019-12-22 11:33:00,Sun,46000,12,0,0,6,Medium,Bread-Heavy Sales Day
+2019-12-04 11:10:00,Wed,23300,3,1,0,2,Medium,Bread-Heavy Sales Day
+2019-12-11 13:32:00,Wed,21500,3,0,0,2,Medium,Bread-Heavy Sales Day
+2019-09-02 14:30:00,Mon,24300,2,0,0,0,Medium,Bread-Heavy Sales Day
+2020-01-03 14:17:00,Fri,43100,9,0,0,4,Medium,Bread-Heavy Sales Day
+2020-02-17 13:03:00,Mon,20100,3,0,0,0,Medium,Bread-Heavy Sales Day
+2019-09-12 13:51:00,Thur,27600,6,0,0,3,Medium,Bread-Heavy Sales Day
+2020-01-03 17:23:00,Fri,20600,4,0,0,4,Medium,Bread-Heavy Sales Day
+2020-02-12 16:21:00,Wed,22500,4,0,0,2,Medium,Bread-Heavy Sales Day
+2019-09-01 12:39:00,Sun,28300,4,0,0,6,Medium,Bread-Heavy Sales Day
+2020-01-12 12:19:00,Sun,45400,10,0,0,6,Medium,Bread-Heavy Sales Day
+2020-01-30 13:20:00,Thur,29600,4,0,0,3,Medium,Bread-Heavy Sales Day
+2019-11-29 13:31:00,Fri,25000,2,1,0,4,Medium,Bread-Heavy Sales Day
+2019-11-07 13:33:00,Thur,34800,10,0,0,3,Medium,Bread-Heavy Sales Day
+2020-02-08 12:38:00,Sat,21200,4,0,0,5,Medium,Bread-Heavy Sales Day
+2019-08-19 13:53:00,Mon,24300,3,1,0,0,Medium,Bread-Heavy Sales Day
+2020-03-18 11:10:00,Wed,24000,6,0,0,2,Medium,Bread-Heavy Sales Day
+2019-08-12 11:08:00,Mon,20800,3,0,0,0,Medium,Bread-Heavy Sales Day
+2020-02-24 12:52:00,Mon,26900,6,0,0,0,Medium,Bread-Heavy Sales Day
+2020-02-28 11:13:00,Fri,20100,3,0,0,4,Medium,Bread-Heavy Sales Day
+2019-08-12 11:05:00,Mon,28400,4,0,1,0,Medium,Bread-Heavy Sales Day
+2019-11-01 13:52:00,Fri,22000,5,0,0,4,Medium,Bread-Heavy Sales Day
+2019-08-11 11:01:00,Sun,21800,4,0,0,6,Medium,Bread-Heavy Sales Day
+2019-09-14 11:18:00,Sat,22300,3,0,1,5,Medium,Bread-Heavy Sales Day
+2019-12-20 13:29:00,Fri,21600,2,0,0,4,Medium,Bread-Heavy Sales Day
+2019-08-29 16:45:00,Thur,24300,3,0,0,3,Medium,Bread-Heavy Sales Day
+2020-04-26 13:44:00,Sun,22200,4,0,0,6,Medium,Bread-Heavy Sales Day
+2019-08-22 12:08:00,Thur,23300,3,0,0,3,Medium,Bread-Heavy Sales Day
+2020-01-05 11:13:00,Sun,26700,5,1,0,6,Medium,Bread-Heavy Sales Day
+2019-09-28 12:52:00,Sat,41400,7,0,0,5,Medium,Bread-Heavy Sales Day
+2019-12-28 16:38:00,Sat,21100,2,0,1,5,Medium,Bread-Heavy Sales Day
+2020-02-21 14:21:00,Fri,33500,7,0,0,4,Medium,Bread-Heavy Sales Day
+2020-02-22 15:00:00,Sat,24100,4,0,1,5,Medium,Bread-Heavy Sales Day
+2019-10-23 13:12:00,Wed,23600,2,1,0,2,Medium,Bread-Heavy Sales Day
+2019-12-21 14:43:00,Sat,30900,4,0,1,5,Medium,Bread-Heavy Sales Day
+2020-01-12 14:19:00,Sun,24400,4,0,0,6,Medium,Bread-Heavy Sales Day
+2019-09-11 11:13:00,Wed,42300,9,0,0,2,Medium,Bread-Heavy Sales Day
+2019-12-08 13:44:00,Sun,28100,4,1,0,6,Medium,Bread-Heavy Sales Day
+2019-09-27 16:12:00,Fri,36100,6,0,0,4,Medium,Bread-Heavy Sales Day
+2019-07-19 12:44:00,Fri,20600,4,0,0,4,Medium,Bread-Heavy Sales Day
+2019-08-26 15:48:00,Mon,21600,4,0,0,0,Medium,Bread-Heavy Sales Day
+2019-11-24 12:56:00,Sun,33700,5,0,1,6,Medium,Bread-Heavy Sales Day
+2019-12-23 13:05:00,Mon,25600,4,1,1,0,Medium,Bread-Heavy Sales Day
+2019-08-11 11:58:00,Sun,27900,5,0,0,6,Medium,Bread-Heavy Sales Day
+2020-02-24 12:26:00,Mon,29900,4,2,0,0,Medium,Bread-Heavy Sales Day
+2020-05-01 11:10:00,Fri,21200,4,0,0,4,Medium,Bread-Heavy Sales Day
+2019-09-09 11:12:00,Mon,23100,4,0,1,0,Medium,Bread-Heavy Sales Day
+2020-02-22 13:51:00,Sat,21500,4,0,0,5,Medium,Bread-Heavy Sales Day
+2020-01-11 11:03:00,Sat,29000,6,0,0,5,Medium,Bread-Heavy Sales Day
+2019-12-16 14:26:00,Mon,20300,2,0,0,0,Medium,Bread-Heavy Sales Day
+2019-09-07 11:47:00,Sat,22500,4,0,0,5,Medium,Bread-Heavy Sales Day
+2020-02-29 14:23:00,Sat,22800,4,0,0,5,Medium,Bread-Heavy Sales Day
+2019-08-17 13:38:00,Sat,32600,6,0,0,5,Medium,Bread-Heavy Sales Day
+2019-10-03 13:17:00,Thur,24000,5,1,0,3,Medium,Bread-Heavy Sales Day
+2019-07-24 14:28:00,Wed,26300,4,2,0,2,Medium,Bread-Heavy Sales Day
+2019-09-05 11:27:00,Thur,21800,5,0,0,3,Medium,Bread-Heavy Sales Day
+2019-07-26 14:52:00,Fri,22100,2,1,1,4,Medium,Bread-Heavy Sales Day
+2020-03-01 15:16:00,Sun,20300,4,0,1,6,Medium,Bread-Heavy Sales Day
+2020-04-12 11:52:00,Sun,36900,6,0,0,6,Medium,Bread-Heavy Sales Day
+2019-11-22 12:25:00,Fri,21000,5,0,0,4,Medium,Bread-Heavy Sales Day
