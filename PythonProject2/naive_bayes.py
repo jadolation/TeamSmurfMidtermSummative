@@ -63,7 +63,7 @@ y_pred_cv_income = np.argmax(proba_preds_cv_income, axis=1)
 # ========================== VALIDATION PROCESS ========================== #
 
 x_validate_products = validate[['total', 'Day_Num', 'Breads', 'Beverages', 'Desserts']].values  # Features for Products Sold Category
-x_validate_income = validate[['total', 'Day_Num']].values  # Features for Income Category (Modified)
+x_validate_income = validate[['total', 'Day_Num']].values
 
 y_validate_products = validate['Products_Sold_Category'].values
 y_validate_income = validate['Income_Category'].values
@@ -104,13 +104,13 @@ def plot_confusion_matrix(y_true, y_pred, title, class_labels):
 
     ax = sns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues',
                      xticklabels=class_labels, yticklabels=class_labels,
-                     linewidths=1, linecolor='black')  # Add internal grid lines
+                     linewidths=1, linecolor='black')
 
     # Add external border
     for _, spine in ax.spines.items():
         spine.set_visible(True)
         spine.set_color("black")
-        spine.set_linewidth(2)  # Adjust thickness of the border
+        spine.set_linewidth(2)
 
     plt.xlabel('Predicted Labels', fontsize=8)
     plt.ylabel('True Labels', fontsize=8)
